@@ -115,7 +115,7 @@ include('include/header.php')
                                         
                                         <div class="custom-control custom-radio mb-5">
                                             <input class="custom-control-input" type="radio" name="payment-method"
-                                                id="cheque" value="option1">
+                                                id="cheque" value="online">
                                             <label class="custom-control-label text-primary ml-2" for="cheque">
                                                 Cheque Payment
                                             </label>
@@ -123,7 +123,7 @@ include('include/header.php')
 
                                         <div class="custom-control custom-radio mb-5">
                                             <input class="custom-control-input" type="radio" name="payment-method"
-                                                id="cash" value="option1">
+                                                id="cash" value="cod">
                                             <label class="custom-control-label text-primary ml-2" for="cash">
                                                 Cash On Delivery
                                             </label>

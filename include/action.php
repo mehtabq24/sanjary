@@ -80,8 +80,8 @@ if($_POST['btn']=='checkout_details'){
         $discount=40;
         $order_date = date('Y-m-d H:i:s');
         $total = ($sub_total-$discount)+$shipping;
-        $add_order_detail_insert = $conn->prepare('INSERT INTO order_details(invoice_id, userid, disc_price, shipping_charges, sub_total, total, name, email, phone, address, city, pincode, state, order_date)VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)');
-        $add_order_detail_insert->execute([$order_id, $userid, $discount, $shipping, $sub_total, $total, $_POST['full_name'], $_POST['email'], $_POST['phone'], $_POST['address'], $_POST['city'], $_POST['post_code'], $_POST['state'], $order_date]);
+        $add_order_detail_insert = $conn->prepare('INSERT INTO order_details(invoice_id, userid, disc_price, shipping_charges, sub_total, total, name, email, phone, address, city, pincode, state, payment_mode, order_date)VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)');
+        $add_order_detail_insert->execute([$order_id, $userid, $discount, $shipping, $sub_total, $total, $_POST['full_name'], $_POST['email'], $_POST['phone'], $_POST['address'], $_POST['city'], $_POST['post_code'], $_POST['state'], $_POST['payment-method'], $order_date]);
         echo "done";
         
     } 

@@ -1182,17 +1182,17 @@
           cache: false,
           processData: false,
           success: function (data) {  
-           alert(data)
+        //    alert(data)
            
-            //   if(data=='done')
-            //   {
-            //       alert("Enquiery Submitted Successfully");
-            //       $("#contactForm").trigger("reset"); 
-            //   }
-            //   else
-            //   {
-            //       alert("Some Technical Issue")
-            //   }
+              if(data=='done')
+              {
+                  alert("Enquiery Submitted Successfully");
+                 // $("#contactForm").trigger("reset"); 
+              }
+              else
+              {
+                  alert("Some Technical Issue")
+              }
 
           }
 
