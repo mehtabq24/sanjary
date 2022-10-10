@@ -102,7 +102,7 @@ include('include/header.php')
                                     
 
                                     <?php
-                                        $cartTotal = $cartTotal + ($row["pro_price"] * $row["pro_qty"]);
+                                          $cartTotal = $cartTotal + ($row["pro_price"] * $row["pro_qty"]);
                                         } }
                                         } ?>
 

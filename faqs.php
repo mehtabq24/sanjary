@@ -220,3 +220,130 @@ include('include/header.php')
 <?php
 include('include/footer.php')
 ?>
+
+<?php include('include/config.php');
+
+// // if($_POST['btn']=='contactSubmit')
+// // {
+// //     $name="";
+// //     if(isset($_POST['name'])){
+// //         $name = $_POST['name'];
+// //     }
+// //     $email="";
+// //     if(isset($_POST['email'])){
+// //         $email = trim_data($_POST['email']);
+// //     }
+// //     $mobile="";
+// //     if(isset($_POST['mobile'])){
+// //         $mobile = trim_data($_POST['mobile']);
+// //     }
+// //     $message="";
+// //     if(isset($_POST['message'])){
+// //         $message = trim_data($_POST['message']);
+// //     }
+
+// //     $insertContact = $conn->prepare('INSERT INTO contact_enquiry(name, email, phone, message) VALUES(?,?,?,?)');
+// //     $insertContact->execute([$name, $email, $mobile, $message]);
+// //     if($insertContact){
+// //         echo "done";
+// //     }
+// // }
+
+
+// if($_POST['btn']=='add_enquery'){
+    
+//     if(isset($_POST['username'])){
+//         $name = $_POST['username'];
+//     }else{
+//         $name="";
+//     }
+//     if(isset($_POST['email'])){
+//         $email = trim_data($_POST['email']);
+//     }else{
+//         $email="";
+//     }
+
+//     if(isset($_POST['leyka_donor_phone'])){
+//         $mobile = trim_data($_POST['leyka_donor_phone']);
+//     }else{
+//         $mobile="";
+//     }
+    
+//     if(isset($_POST['message'])){
+//         $message = trim_data($_POST['message']);
+//     }else{
+//         $message="";    
+//     }
+//     if(isset($_POST['page_url'])){
+//         $page_url = trim_data($_POST['page_url']);
+//     }else{
+//         $page_url="";    
+//     }
+//     $web="popup drug";
+//     $type="enq";
+//     $insertContact = $conn1->prepare('INSERT INTO customerCases(web, type, page, name, email, phone, message) VALUES(?,?,?,?,?,?,?)');
+//     $insertContact->execute([$web, $type, $page_url, $name, $email, $mobile, $message]);
+//     if($insertContact){
+//         echo "done";
+//     }
+// }
+// // from contact page enquiery
+
+// if($_POST['btn']=='contactSubmit'){
+    
+//     if(isset($_POST['name'])){
+//         $name = $_POST['name'];
+//     }else{
+//         $name="";
+//     }
+//     if(isset($_POST['email'])){
+//         $email = trim_data($_POST['email']);
+//     }else{
+//         $email="";
+//     }
+
+//     if(isset($_POST['mobile'])){
+//         $mobile = trim_data($_POST['mobile']);
+//     }else{
+//         $mobile="";
+//     }
+    
+//     if(isset($_POST['message'])){
+//         $message = trim_data($_POST['description']);
+//     }else{
+//         $message="";    
+//     }
+//     if(isset($_POST['page_url'])){
+//         $page_url = trim_data($_POST['page_url']);
+//     }else{
+//         $page_url="";    
+//     }
+//     $web="contact page drug";
+//     $type="enq";
+//     $insertContact = $conn1->prepare('INSERT INTO customerCases(web, type, page, name, email, phone, message) VALUES(?,?,?,?,?,?,?)');
+//     $insertContact->execute([$web, $type, $page_url, $name, $email, $mobile, $message]);
+//     if($insertContact){
+//         echo "done";
+//     }
+// }
+
+
+
+// function trim_data($text) {
+//     // $text = trim($data); //<-- LINE 31
+//      if(is_array($text)) {
+//          return array_map('trim_data', $text);
+//      }
+
+//      $text = preg_replace("/(\r\n|\n|\r)/", "\n", $text); // cross-platform newlines
+//      $text = preg_replace("/\n\n\n\n+/", "\n", $text); // take care of duplicates
+    
+//      $text = htmlspecialchars($text, ENT_QUOTES, 'UTF-8');
+//      $text = stripslashes($text);
+    
+//      $text = str_replace ( "\n", " ", $text );
+//      $text = str_replace ( "\t", " ", $text );
+    
+//      return $text;
+//  }
+?>
