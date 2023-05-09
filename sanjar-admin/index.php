@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 	<title>AUGS PANEL</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta content="AUGS Admin & Dashboard" name="description" />
+	<meta content="AUGS Admin & Dashboard" name="description"/>
 	<meta content="Themesbrand" name="author" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 	<style>
@@ -13,7 +13,7 @@
 			background: linear-gradient(90deg, black 50%, #d3d3d3 50%);
 		}
 		.error{
-			color: red;
+		color: red;
     	font-size: 15px;
 		}
 	/* #login_section{

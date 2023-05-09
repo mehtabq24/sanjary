@@ -133,7 +133,7 @@ if($_POST['btn']=='addUser'){
     $username = $_POST['username'];
     $pwd = $_POST['pwd'];  
     $img_id = $_POST['img_id'];
-    $stmt = $conn->prepare("INSERT INTO user(img_id,name ,username,password,status) VALUES(?,?,?,?,?)");
+    $stmt = $conn->prepare("INSERT INTO user(img_id, name ,username,password,status) VALUES(?,?,?,?,?)");
     if($stmt->execute([$img_id, $name, $username,  $pwd,1])){
       echo "inserted";
     }
