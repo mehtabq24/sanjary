@@ -28,7 +28,7 @@ include('include/header.php'); ?>
                                 </h1>
                                 <a href="#" class="btn btn-white text-uppercase letter-spacing-05"
                                     data-animate="fadeInUp">Shop
-                                    Now</a>
+                                    Now mehtab</a>
                             </div>
                         </div>
                     </div>
