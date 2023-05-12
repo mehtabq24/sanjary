@@ -101,3 +101,20 @@
 .order__page hr{
     color: gray;
 }
+/* custom css start  */
+/* home page */
+.product{
+    border: 1px solid #ddd !important;
+    overflow: hidden;
+    border-radius: 8px !important;
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    -ms-border-radius: 8px !important;
+    -o-border-radius: 8px !important;
+}
+
+.product .d-flex{
+    padding: 15px !important;
+}
+/* home page */
+/* custom css end  */

@@ -128,18 +128,13 @@ include('include/header.php'); ?>
                 <div class="arraydata"></div>
                 <div class="col-sm-6 col-lg-3 mb-6" data-animate="fadeInUp">
                         
-                        <div class="card border-0 hover-change-content product">
+                        <div class="card border-0 hover-change-content home__Page product">
                             <div style="background-image: url('sanjar-admin/<?php echo $image ?>')" class="card-img ratio bg-img-cover-center ratio-1-1">
                         </div>
                         
                             <div class="card-img-overlay d-flex py-4 py-sm-5 pl-6 pr-4">
                             
-                                <div class="d-flex flex-column">
-                                    <a href="<?php echo $row['slug'] ?>" class="font-weight-bold mb-1 d-block lh-12"><?php echo $row['title']; ?></a>
-                                    <a href="<?php echo $row['slug'] ?>" class="text-uppercase text-muted letter-spacing-05 fs-13 font-weight-500"><?php echo $product_cat_data['cat_name']; ?></a>
-                                    <p class="mt-auto text-primary mb-0 font-weight-500">
-                                    <?php echo number_format($row['prc'],2); ?></p>
-                                </div>
+
                             </a>
                                 <div class="ml-auto d-flex flex-column">
                                     <div class="my-auto content-change-vertical">
@@ -163,6 +158,12 @@ include('include/header.php'); ?>
                                     </div>
                                 </div>
                             </div>
+                            <div class="card__body d-flex flex-column">
+                                    <a href="<?php echo $row['slug'] ?>" class="font-weight-bold mb-1 d-block lh-12"><?php echo $row['title']; ?></a>
+                                    <a href="<?php echo $row['slug'] ?>" class="text-uppercase text-muted letter-spacing-05 fs-13 font-weight-500"><?php echo $product_cat_data['cat_name']; ?></a>
+                                    <p class="mt-auto text-primary mb-0 font-weight-500">
+                                    <?php echo number_format($row['prc'],2); ?></p>
+                                </div>
                         </div>
                     </div>
                 

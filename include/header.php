@@ -77,7 +77,7 @@ if(!isset($_COOKIE[$cookie_name])) {
                                         <span class="caret"></span>
                                     </a>
                                     <div
-                                        class="dropdown-menu dropdown-menu-xl px-0 pb-10 pt-5 dropdown-menu-listing overflow-hidden x-animated x-fadeInUp">
+                                        class="dropdown-menu dropdown-menu-xl px-0 py-5 dropdown-menu-listing overflow-hidden x-animated x-fadeInUp">
                                         <div class="container container-xxl">
                                             <div class="row no-gutters w-100">
 
@@ -99,9 +99,9 @@ if(!isset($_COOKIE[$cookie_name])) {
                                                 $alt="Not Found";
                                             }
                                             ?>
-                                                <div class="col-3">
+                                                <div class="col-3" style="border: 1px solid #ddd;">
                                                 <a href="chair/<?php echo $product_cat_data['cat_slug'] ?>">
-                                                <div class="c-card m-3 d-flex align-items-center">
+                                                <div class=" d-flex align-items-center">
                                                 <img src="sanjar-admin/<?php echo $cat_image ?>" alt="" class="image_category">
                                                 <p class="text-center"><?php echo $product_cat_data['cat_name'] ?></p>
                                                 </div>
@@ -121,7 +121,7 @@ if(!isset($_COOKIE[$cookie_name])) {
                                         <span class="caret"></span>
                                     </a>
                                     <div
-                                        class="dropdown-menu dropdown-menu-xl px-0 pb-10 pt-5 dropdown-menu-listing overflow-hidden x-animated x-fadeInUp">
+                                        class="dropdown-menu dropdown-menu-xl px-0 py-5 dropdown-menu-listing overflow-hidden x-animated x-fadeInUp">
                                         <div class="container container-xxl">
                                             <div class="row no-gutters w-100">
                                                 
@@ -143,9 +143,9 @@ if(!isset($_COOKIE[$cookie_name])) {
                                                 $alt="Not Found";
                                             }
                                             ?>
-                                                <div class="col-3">
+                                                <div class="col-3" style="border: 1px solid #ddd;">
                                                 <a href="sofa/<?php echo $product_cat_data['cat_slug'] ?>">
-                                                <div class="c-card m-3 d-flex align-items-center">
+                                                <div class=" d-flex align-items-center">
                                                     <img src="sanjar-admin/<?php echo $cat_image ?>" alt="" class="image_category">
                                                     <p class="text-center"><?php echo $product_cat_data['cat_name'] ?></p>    
                                                 </div>
@@ -153,9 +153,9 @@ if(!isset($_COOKIE[$cookie_name])) {
                                         </div>
 
                                             <?php } ?>
-                                            <div class="col-3">
+                                            <div class="col-3" style="border: 1px solid #ddd;">
                                             <a href="category/sofa">    
-                                                <div class="c-card m-3 d-flex align-items-center">
+                                                <div class=" d-flex align-items-center">
                                                 <img src="sanjar-admin/uploads/Fabric Sofa Cum Beds.webp" alt="" class="image_category">
                                                 <p class="text-center">View All Sofa</p>    
                                                 </div>
@@ -174,7 +174,7 @@ if(!isset($_COOKIE[$cookie_name])) {
                                         Bedroom
                                         <span class="caret"></span>
                                     </a>
-                                    <div class="dropdown-menu dropdown-menu-xl px-0 pb-10 pt-5 dropdown-menu-listing overflow-hidden x-animated x-fadeInUp">
+                                    <div class="dropdown-menu dropdown-menu-xl px-0 py-5 dropdown-menu-listing overflow-hidden x-animated x-fadeInUp">
                                         <div class="container container-xxl">
                                             <div class="row no-gutters w-100">
                                             <?php
@@ -195,9 +195,9 @@ if(!isset($_COOKIE[$cookie_name])) {
                                                 $alt="Not Found";
                                             }
                                             ?>
-                                                <div class="col-3">
+                                                <div class="col-3" style="border: 1px solid #ddd;">
                                                 <a href="bedroom/<?php echo $product_cat_data['cat_slug'] ?>">
-                                                <div class="c-card m-3 d-flex align-items-center">
+                                                <div class="d-flex align-items-center">
                                                 <img src="sanjar-admin/<?php echo $cat_image ?>" alt="" class="image_category">
                                                 <p class="text-center"><?php echo $product_cat_data['cat_name'] ?></p>    
                                                 </div>
@@ -217,7 +217,7 @@ if(!isset($_COOKIE[$cookie_name])) {
                                         <span class="caret"></span>
                                     </a>
                                     <div
-                                        class="dropdown-menu dropdown-menu-xl px-0 pb-10 pt-5 dropdown-menu-listing overflow-hidden x-animated x-fadeInUp">
+                                        class="dropdown-menu dropdown-menu-xl px-0 py-5 dropdown-menu-listing overflow-hidden x-animated x-fadeInUp">
                                         <div class="container container-xxl">
                                             <div class="row no-gutters w-100">
                                             <?php
